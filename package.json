@@ -1,0 +1,59 @@
+{
+  "name": "bug-reproduction",
+  "version": "0.0.1",
+  "engines": {
+    "npm": ">=3"
+  },
+  "scripts": {
+    "start": "babel-node tools/srcServer.js"
+  },
+  "dependencies": {
+    "@babel/cli": "7.6.2",
+    "@babel/core": "7.6.2",
+    "@babel/node": "7.6.2",
+    "@babel/polyfill": "7.6.0",
+    "@babel/preset-env": "7.6.2",
+    "@babel/preset-react": "7.0.0",
+    "@babel/register": "7.6.2",
+    "@hot-loader/react-dom": "16.9.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-externals-plugin": "3.8.0",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "15.7.2",
+    "react": "16.10.2",
+    "react-dom": "16.9.0",
+    "react-hot-loader": "4.12.14",
+    "react-svg-loader": "3.0.3",
+    "react-table": "6.10.3",
+    "sass-loader": "^8.0.0",
+    "script-ext-html-webpack-plugin": "2.1.3",
+    "webpack": "4.29.1",
+    "webpack-bundle-analyzer": "2.11.1",
+    "webpack-dev-middleware": "3.1.3",
+    "webpack-hot-middleware": "2.22.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "chalk": "2.0.1",
+    "concurrently": "3.5.0",
+    "connect-history-api-fallback": "1.3.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "core-js": "2.6.3",
+    "coveralls": "2.13.1",
+    "file-loader": "1.1.11",
+    "identity-obj-proxy": "3.0.0",
+    "json-loader": "0.5.7",
+    "mockdate": "2.0.1",
+    "node": "8.9.4",
+    "nodemon": "1.19.1",
+    "opn-cli": "3.1.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "prompt": "1.0.0",
+    "replace": "0.3.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "1.0.1"
+  }
+}
